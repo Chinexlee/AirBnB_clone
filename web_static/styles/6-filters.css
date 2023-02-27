@@ -1,0 +1,33 @@
+.popover {
+    display: none;
+    position: relative;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    margin-top: -5px;
+}
+.locations h2{
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+.filters{
+    display: inline-block;
+    position: relative;}
+
+.locations:hover .popover{
+    display: block;
+}
+.amenities:hover .popover{
+    display: block;
+}
+.locations li{
+    list-style-type: none;
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 0px;
+}
+.amenities li{
+    list-style-type: none;
+    list-style: none;
+    margin-top: 0px;
+}
